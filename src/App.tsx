@@ -1,8 +1,7 @@
 import React from 'react';
-import { Component } from '../src/components/component';
 
+import FuaGra from './components/component';
 
-
-const App = (): JSX.Element => <Component />;
+const App = (): JSX.Element => <FuaGra />;
 
 export default App;

@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Alexey-Koren/webpack-boilerplate.git"
   },
   "scripts": {
-    "dev": "webpack-dev-server --open --hot -d",
+    "start": "webpack-dev-server --open --hot -d",
     "build": "cross-env NODE_ENV=production webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -f -r build",
@@ -63,8 +63,11 @@
     "eslint-plugin-react-hooks": "^4.1.2",
     "file-loader": "^6.1.0",
     "glob-all": "^3.2.1",
+    "google-closure-library": "^20201102.0.1",
     "html-webpack-plugin": "^4.5.0",
     "husky": "^4.3.0",
+    "json-import-loader": "^2.0.0",
+    "json-loader": "^0.5.7",
     "lint-staged": "^10.4.0",
     "mini-css-extract-plugin": "^0.11.2",
     "node-sass": "^4.14.1",

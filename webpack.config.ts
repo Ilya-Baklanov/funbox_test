@@ -90,6 +90,10 @@ const config: Configuration = {
           },
         },
       },
+      {
+        test: /\.json$/,
+        loader: 'json-loader',
+      },
     ],
   },
   resolve: {
